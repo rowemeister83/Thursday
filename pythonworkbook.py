@@ -10,26 +10,26 @@ else:
 
 #39 python workbook - decibels ranking programme
 
-decibels = int(input('Enter number of decibels: '))
+decibels = int(input("Enter decibel level: "))
 
 if decibels < 40:
-    print('even less than a quiet room')
+    print("more silence then found in a quiet room")
 elif decibels == 40:
-    print('quiet room')
+    print("quiet room")
 elif decibels < 70:
-    print('higher than a Quiet room, but lower than an alarm clock')
+    print("higher than a Quiet room, but lower than an alarm clock")
 elif decibels == 70:
-    print('alarm clock')
+    print("alarm clock")
 elif decibels < 106:
-    print('louder than an Alarm clock, less than a Gas lawnmower')
+    print("louder than an Alarm clock, but not as bad as a pesky Gas lawnmower")
 elif decibels == 106:
-    print('a gas lawnmower')
+    print("a gas lawnmower")
 elif decibels < 130:
-    print('above a Gas lawnmower, quieter than a jackhammer')
+    print("above a Gas lawnmower, less in your face - or ears -than a jackhammer")
 elif decibels == 130:
-    print('Jackhammer')
+    print("Jackhammer, baby")
 else:
-    print('even louder than a jackhammer')
+    print("louder than war")
 
 
 
