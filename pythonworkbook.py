@@ -8,6 +8,7 @@ if (num % 2) == 0:
 else:
    print("{0} is Odd".format(num))
 
+#39 python workbook - decibels ranking programme
 
 decibels = int(input('Enter number of decibels: '))
 
