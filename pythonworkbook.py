@@ -10,7 +10,7 @@ else:
 
 #39 python workbook - decibels ranking programme
 
-decibels = int(input("Enter decibel level: "))
+decibels = int(input("Enter your decibel level: "))
 
 if decibels < 40:
     print("more silence then found in a quiet room")
