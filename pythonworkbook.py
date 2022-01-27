@@ -13,7 +13,7 @@ else:
 decibels = int(input("Enter your decibel level: "))
 
 if decibels < 40:
-    print("more silence then found in a quiet room")
+    print("more silent then a quiet room")
 elif decibels == 40:
     print("quiet room")
 elif decibels < 70:
