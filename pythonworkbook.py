@@ -31,5 +31,26 @@ elif decibels == 130:
 else:
     print("louder than war")
 
+#43 Faces on Money
+
+note=int(input('What\'s your bank note: '))
+if note ==1:
+    print ("George Washington")
+elif note ==2:
+    print("Thomas Jefferson")
+elif note ==5:
+    print("Abraham Lincoln")
+elif note ==10:
+    print("Alexander Hamilton - The Musical")
+elif note ==20:
+    print("Andrew Jackson")
+elif note ==50:
+    print("Ulysses S. Grant - the General")
+elif note ==100:
+    print("Benjamin Franklin - he who loved a good bath")
+
+
+
+
 
 
