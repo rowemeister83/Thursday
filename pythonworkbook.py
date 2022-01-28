@@ -33,7 +33,7 @@ else:
 
 #43 Faces on Money
 
-note=int(input('What\'s your bank note: '))
+note=int(input("What\'s your bank note: "))
 if note ==1:
     print ("George Washington")
 elif note ==2:
@@ -48,6 +48,8 @@ elif note ==50:
     print("Ulysses S. Grant - the General")
 elif note ==100:
     print("Benjamin Franklin - he who loved a good bath")
+else:
+    print("We aint got your dollar. Good day, Good Sir")
 
 
 
