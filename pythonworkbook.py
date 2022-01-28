@@ -35,11 +35,11 @@ else:
 
 note=int(input("What\'s your bank note: "))
 if note ==1:
-    print ("George Washington")
+    print ("George Washington - Crossing the Delware since since 1776")
 elif note ==2:
-    print("Thomas Jefferson")
+    print("Thomas Jefferson - questionable slave keeping attitude")
 elif note ==5:
-    print("Abraham Lincoln")
+    print("Abraham Lincoln - Sharpen that Axe, boy")
 elif note ==10:
     print("Alexander Hamilton - The Musical")
 elif note ==20:
@@ -50,6 +50,23 @@ elif note ==100:
     print("Benjamin Franklin - he who loved a good bath")
 else:
     print("We aint got your dollar. Good day, Good Sir")
+
+#43 Alt method
+
+def processAndPrint(dollar, amount, president):
+    print(int(dollar/amount), president)
+
+dollar = int(input("give me your dollar: "))
+print()
+
+amount = [1, 2, 5, 10, 20, 50, 100]
+president = ["Washington", "Jefferson", "Lincoln", "Hamilton", "Jackson", "Grant", "Franklin"]
+
+for i in range(len(amount)):
+    print(dollar, dollar[i], president[i])
+dollar= dollar % amount[i]
+
+
 
 
 
